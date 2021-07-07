@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import styled from "@emotion/styled";
 
@@ -8,16 +8,16 @@ SwiperCore.use([Autoplay, Pagination]);
 
 const Slider = () => {
   return (
-    <div className="justify-content flex mx-auto my-10 lg:my-16">
+    <div className="max-w-screen-lg mx-auto">
       <Swiper
         breakpoints={{
-          1000: {
+          // window width >= 1000
+          850: {
             slidesPerView: 3,
-            spaceBetween: 30,
           },
+          // window width >= 450
           450: {
             slidesPerView: 2,
-            spaceBetween: 30,
           },
         }}
         slidesPerView={1}
