@@ -14,15 +14,6 @@ module.exports = {
         success: "#0070f3",
         cyan: "#79FFE1",
       },
-      container: {
-        padding: {
-          DEFAULT: "1rem",
-          sm: "2rem",
-          lg: "4rem",
-          xl: "5rem",
-          "2xl": "6rem",
-        },
-      },
       spacing: {
         28: "7rem",
       },

@@ -8,7 +8,7 @@ SwiperCore.use([Autoplay, Pagination]);
 
 const Slider = () => {
   return (
-    <div className="max-w-screen-lg mx-auto">
+    <div className="max-w-screen-xl mx-auto my-7 lg:my-16">
       <Swiper
         breakpoints={{
           // window width >= 1000

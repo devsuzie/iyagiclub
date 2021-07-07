@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
+    "dev9090": "npx next dev -p 9090",
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc"

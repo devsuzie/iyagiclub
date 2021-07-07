@@ -8,11 +8,11 @@ import logoImage from '../public/assets/logo/logo-string.svg';
 const About = () => {
   return (
     <Layout>
-      <Container className="flex mx-auto flex-col mt-10 xl:mt-0 xl:flex-row mb-20 xl:mb-0 px-6 xl:px-0 max-w-lg xl:max-w-5xl">
-        <section className="max-w-sm mb-20 xl:w-2/5 xl:mb-0">
+      <Container className="flex mx-auto flex-col mt-10 mb-20 max-w-lg lg:mt-0 lg:flex-row lg:mb-0 px-6 lg:px-0 lg:max-w-5xl">
+        <section className="max-w-sm w-9/12 mb-20 lg:w-2/5 lg:mb-0">
           <Image src={logoImage} alt="logo" />
         </section>
-        <section className="font-futura font-semibold w-full xl:w-3/5 xl:pl-28">
+        <section className="font-futura font-semibold w-full lg:w-3/5 lg:pl-28">
           <h3 className="pb-5 font-extrabold">
             이야기가 펼쳐지는 곳: 이야기 클럽
           </h3>
@@ -47,7 +47,7 @@ const Container = styled.div`
   height: calc(100vh - 92px);
   justify-content: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     height: auto;
   }
 `;

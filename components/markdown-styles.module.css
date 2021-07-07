@@ -6,11 +6,11 @@
 .markdown ul,
 .markdown ol,
 .markdown blockquote {
-  @apply my-6;
+  @apply mt-4 mb-16;
 }
 
 .markdown h2 {
-  @apply text-3xl mt-12 mb-4 leading-snug;
+  @apply leading-snug inline-block font-semibold;
 }
 
 .markdown h3 {

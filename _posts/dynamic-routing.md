@@ -1,19 +1,25 @@
 ---
-title: 'Dynamic Routing and Static Generation'
-excerpt: '박현아 | 제품 디자이너'
+title: '뱅크샐러드의 프로덕트를 만드는 사람'
+excerpt: '민희수 | 프로덕트 디자이너'
 coverImage: '/assets/blog/dynamic-routing/cover.jpg'
-date: '2020-03-16T05:35:07.322Z'
+date: '2021-07-07'
 author:
-  name: JJ Kasper
+  name: 민희수 | 프로덕트 디자이너
   picture: '/assets/blog/authors/jj.jpeg'
 ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+## 소개와 현재 하고 있는 일에 대해 말해주세요.
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+안녕하세요 저는 뱅크샐러드에서 프로덕트 디자이너로 일하고 있는 민희수입니다.
+2017년 라인 플러스에서 처음으로 프로덕트 디자이너로 일을하게 되었어요.
+라인 플러스와 라인 파이낸셜에서 핀테크 업무를 주로 하다가 뱅크샐러드에 왔습니다.
 
-## Lorem Ipsum
+## 프로덕트 디자이너가 되기까지의 과정을 말씀해주실 수 있을까요?
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+초등학생 때 처음으로 웹을 처음 접하게 되었어요. 초등학생때 컴퓨터를 좋아해서 나모 웹에디터를 만지기 시작하다가 웹에 흥미를 가지기 시작했어요. 처음에는 웹에디터의 존재를 몰라서 HTML로 작업을 하다가 웹에디터로 작업을 하게 되었어요. 개발로 디자인을 표현하는 것 처럼 나모 웹에디터로 디자인을 했습니다. 저는 그것을 코딩이라고 생각하지 않고 표현하는 붓이라고 생각했어요.
+
+## 무엇이 본격적으로 디자인 세계로 이끌었나요?
+
+"장래 희망을 적으시오"라는 칸에 별생각 없이 디자이너라고 썼는데 몇 년 뒤 제가 디자이너가 되어있을 줄은 몰랐어요. 거창한 이유는 없었고 멋있어 보이고 또 창의적이여 보여서 그렇게 적었던 것 같아요. 내가 잘 할 수 있을 것처럼 보였어요. 창의적이거나 멋있어 보이는 일은 다른 일에 대입해도 같긴 하지만 저에겐 그런 일이 디자인이었나 봐요. 원래 꿈이라는 게 별 시답잖은 이유로 정해지잖아요?
