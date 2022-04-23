@@ -1,14 +1,13 @@
-import Head from "next/head";
-import { AppProps } from "next/app";
+import Head from 'next/head';
+import { AppProps } from 'next/app';
 
-import "swiper/swiper.min.css";
-import "swiper/components/pagination/pagination.min.css";
+import 'swiper/swiper.min.css';
+import 'swiper/components/pagination/pagination.min.css';
 
-import "../styles/index.css";
-import { TITLE } from "../lib/constants";
+import '../styles/index.css';
+import { TITLE } from '../lib/constants';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-
   return (
     <>
       <Head>
