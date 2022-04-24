@@ -1,11 +1,14 @@
-import Link from "next/link";
-import styled from "@emotion/styled";
+import Link from 'next/link';
+import styled from '@emotion/styled';
 
 const Nav = () => {
   return (
     <StyledNav>
       <Link href="/about">
-        <Menu>이야기클럽</Menu>
+        <Menu>STORIES</Menu>
+      </Link>
+      <Link href="/about">
+        <Menu>KR</Menu>
       </Link>
     </StyledNav>
   );
@@ -14,17 +17,20 @@ const Nav = () => {
 export default Nav;
 
 const StyledNav = styled.nav`
+  font-family: 'Futura';
+  font-weight: bold;
+  color: #ffffff;
   float: right;
   height: 51px;
   line-height: 51px;
 `;
 
 const Menu = styled.a`
-  border: 1px solid black;
-  border-radius: 15px;
   padding: 5px 10px;
 
   &:hover {
     cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 0.25em;
   }
 `;

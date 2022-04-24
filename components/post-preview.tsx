@@ -1,36 +1,36 @@
-import Avatar from './avatar'
-import DateFormatter from './date-formatter'
-import CoverImage from './cover-image'
-import Link from 'next/link'
-import Author from '../types/author'
+import Avatar from './avatar';
+import DateFormatter from './date-formatter';
+import CoverImage from './cover-image';
+import Link from 'next/link';
+import Author from '../types/author';
+import styled from '@emotion/styled';
 
 type Props = {
-  title: string
-  coverImage: string
-  date: string
-  excerpt: string
-  author: Author
-  slug: string
-}
+  title: string;
+  coverImage: string;
+  date: string;
+  excerpt: string;
+  author: Author;
+  slug: string;
+};
 
-const PostPreview = ({
-  title,
-  coverImage,
-  date,
-  excerpt,
-  author,
-  slug,
-}: Props) => {
+const PostPreview = ({ title, coverImage, date, excerpt, author, slug }: Props) => {
   return (
-    <li className="hover:bg-light-gray tex-avenir px-4 lg:px-5 py-4 my-4" key={slug}>
+    <List className="p-8">
       <Link as={`/posts/${slug}`} href="/posts/[slug]">
         <a>
           <h3 className="text-2xl font-bold leading-8 mb-2">{title}</h3>
           <p className="text-base text-gray leading-8">{excerpt}</p>
         </a>
       </Link>
-    </li>
+    </List>
   );
-}
+};
 
-export default PostPreview
+const List = styled.li`
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  box-shadow: 5px 5px 0 0 black;
+`;
+
+export default PostPreview;
