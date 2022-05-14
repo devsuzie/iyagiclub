@@ -52,6 +52,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
                   {post.title} | {TITLE}
                 </title>
                 <meta property="og:image" content={post.ogImage.url} />
+                <meta name="theme-color" content="#ffffff" />
               </Head>
               <PostHeader
                 title={post.title}
@@ -98,6 +99,7 @@ const StyledContainer = styled(ToastContainer)`
   .Toastify__toast-body {
   }
   .Toastify__progress-bar {
+    transform: translateZ(0)
     background-color: gray;
   }
 `;
