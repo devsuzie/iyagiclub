@@ -36,7 +36,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
       position: toast.POSITION.BOTTOM_RIGHT,
       icon: false,
     });
-    copy(`${post.title} | ${TITLE}\n${BASE_PATH}${router.asPath}`);
+    copy(`${post.author.role} ${post.author.name}님의 이야기\n${BASE_PATH}${router.asPath}`);
   };
 
   return (
@@ -50,7 +50,6 @@ const Post = ({ post, morePosts, preview }: Props) => {
               <Head>
                 <title>{post.title}</title>
                 <meta property="og:image" content={post.ogImage.url} />
-                <meta name="theme-color" content="#ffffff" />
               </Head>
               <PostHeader
                 title={post.title}

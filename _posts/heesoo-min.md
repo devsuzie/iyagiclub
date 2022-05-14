@@ -5,9 +5,10 @@ excerpt:
   플러스에서 처음으로 프로덕트 디자이너로 일을하게 되었어요. 라인 플러스와 라인 파이낸셜에서 핀테크
   업무를 주로하다가 뱅크샐러드에 왔습니다.'
 coverImage: '/assets/blog/dynamic-routing/cover.jpg'
-date: '2021-07-07'
+date: '2022-05-15'
 author:
-  name: 민희수 | 프로덕트 디자이너
+  name: '민희수'
+  role: '프로덕트 디자이너'
   picture: '/assets/blog/authors/jj.jpeg'
 ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'

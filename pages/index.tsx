@@ -137,7 +137,7 @@ const DescriptionContainer = styled.section`
 
   font-family: 'Avenir Next';
   font-weight: bold;
-  font-size: 40px;
+  font-size: 38px;
 
   padding-bottom: 100px;
   padding: 0 20px;

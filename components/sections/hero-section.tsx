@@ -8,7 +8,7 @@ const HeroSection = () => {
 
   return (
     <HeroSectionContainer>
-      <Stars animate={scrollY}>
+      <Stars>
         <Image
           src="/assets/illustration/stars.png"
           alt="yellow star"
@@ -18,7 +18,7 @@ const HeroSection = () => {
       </Stars>
 
       <Rocket animate={scrollY}>
-        <Image src="/assets/illustration/rocket.png" alt="rocket" width="390px" height="390px" />
+        <Image src="/assets/illustration/rocket.png" alt="rocket" layout="fill" objectFit='contain' />
       </Rocket>
     </HeroSectionContainer>
   );
@@ -44,10 +44,10 @@ const HeroSectionContainer = styled.div`
   }
 `;
 
-const Stars = styled.div<{ animate: number }>`
+const Stars = styled.div`
   position: absolute;
   top: 0;
-  left: ${({ animate }) => (animate ? animate * 0.25 : 0)}px;
+  left: 0;
   width: 100%;
   height: 100%;
   animation: pulse infinite;
@@ -67,6 +67,13 @@ const Stars = styled.div<{ animate: number }>`
 const Rocket = styled.div<{ animate: number }>`
   position: absolute;
   top: ${({ animate }) => (animate ? animate * 1.05 + 300 : 300)}px;
+  width: 400px;
+  height: 400px;
+
+  @media (max-width: 640px) {
+    width: 300px;
+    height: 300px;
+  }
 `;
 
 export default HeroSection;
