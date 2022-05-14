@@ -1,8 +1,8 @@
-import markdownStyles from './markdown-styles.module.css'
+import markdownStyles from './markdown-styles.module.css';
 
 type Props = {
-  content: string
-}
+  content: string;
+};
 
 const PostBody = ({ content }: Props) => {
   return (
@@ -10,9 +10,10 @@ const PostBody = ({ content }: Props) => {
       <div
         className={markdownStyles['markdown']}
         dangerouslySetInnerHTML={{ __html: content }}
+        style={{ wordBreak: 'keep-all' }}
       />
     </div>
-  )
-}
+  );
+};
 
-export default PostBody
+export default PostBody;

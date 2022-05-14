@@ -17,10 +17,10 @@ type Props = {
 const PostPreview = ({ title, coverImage, date, excerpt, author, slug }: Props) => {
   return (
     <List className="p-8">
-      <Link as={`/posts/${slug}`} href="/posts/[slug]">
+      <Link as={`/stories/${slug}`} href="/stories/[slug]">
         <a>
           <h3 className="text-2xl font-bold leading-8 mb-2">{title}</h3>
-          <p className="text-base text-gray leading-8">{excerpt}</p>
+          <p className="text-base text-gray leading-6 truncate overflow-hidden">{excerpt}</p>
         </a>
       </Link>
     </List>
