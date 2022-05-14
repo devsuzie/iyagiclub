@@ -31,6 +31,10 @@ const List = styled.li`
   border-radius: 0.5rem;
   border: 1px solid black;
   box-shadow: 5px 5px 0 0 black;
+
+  &:hover {
+    box-shadow: 8px 8px 0 0 black;
+  }
 `;
 
 export default PostPreview;

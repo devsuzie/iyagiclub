@@ -9,7 +9,7 @@ const MoreStories = ({ posts }: Props) => {
   return (
     <>
       <h2 className="text-5xl font-futura font-bold mb-6">Stories</h2>
-      <ul className="grid grid-cols-2 gap-8 mb-20">
+      <ul className="grid grid-cols-1 gap-8 mb-20 lg:grid-cols-2">
         {posts.map(post => (
           <PostPreview
             key={post.slug}

@@ -129,12 +129,21 @@ const DescriptionSection = ({ isKorean }: Props) => {
 };
 
 const ParagraphContainer = styled.div`
-  padding: 150px 0;
-  width: 800px;
   margin: 0 auto;
 
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  @media (min-width: 840px) {
+    width: 800px;
+    padding: 150px 0;
+    justify-content: space-between;
+    flex-direction: initial;
+  }
 `;
 
 const Highlight = styled.span<{ color: string }>`

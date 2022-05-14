@@ -7,9 +7,6 @@ const Nav = () => {
       <Link href="/about">
         <Menu>STORIES</Menu>
       </Link>
-      <Link href="/about">
-        <Menu>KR</Menu>
-      </Link>
     </StyledNav>
   );
 };
