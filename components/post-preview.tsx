@@ -19,7 +19,7 @@ const PostPreview = ({ title, coverImage, date, excerpt, author, slug }: Props) 
     <List className="p-8">
       <Link as={`/stories/${slug}`} href="/stories/[slug]">
         <a>
-          <h3 className="text-2xl font-bold leading-8 mb-2">{title}</h3>
+          <h3 className="text-2xl font-bold leading-9 mb-2" style={{ wordBreak: 'keep-all' }}>{title}</h3>
           <p
             className="text-base text-gray leading-6 truncate overflow-hidden"
             style={{ lineClamp: 2 }}
