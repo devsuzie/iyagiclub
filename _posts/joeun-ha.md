@@ -1,6 +1,6 @@
 ---
-title: '하조은 | 프론트엔드 엔지니어'
-excerpt: '안녕하세요. 소프트웨어 엔지니어 하조은입니다.'
+title: '당신 근처의 조은 동료'
+excerpt: '하조은 | 소프트웨어 엔지니어'
 coverImage: '/assets/blog/dynamic-routing/cover.jpg'
 date: '2022-05-15'
 author:
