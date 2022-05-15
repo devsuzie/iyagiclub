@@ -17,6 +17,7 @@ import { BASE_PATH } from '../../constants/idex';
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Meta from '../../components/meta';
 
 type Props = {
   post: PostType;
@@ -49,7 +50,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
             <article className="mb-32">
               <Head>
                 <title>{post.title}</title>
-                <meta property="og:image" content={post.ogImage.url} />
+                <Meta description={post.title} />
               </Head>
               <PostHeader
                 title={post.title}
