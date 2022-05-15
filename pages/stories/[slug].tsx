@@ -46,7 +46,6 @@ const Post = ({ post, morePosts, preview }: Props) => {
     <Container>
       <Head>
         <title>{post.title}</title>
-        <Meta description={post.title} url={URL} />
       </Head>
       {router.isFallback ? (
         <PostTitle>Loading…</PostTitle>
