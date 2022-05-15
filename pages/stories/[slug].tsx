@@ -43,37 +43,35 @@ const Post = ({ post, morePosts, preview }: Props) => {
   };
 
   return (
-    <Layout preview={preview}>
-      <Container>
-        {router.isFallback ? (
-          <PostTitle>Loading…</PostTitle>
-        ) : (
-          <>
-            <article className="mb-32">
-              <Head>
-                <title>{post.title}</title>
-                <Meta description={post.title} url={URL} />
-              </Head>
-              <PostHeader
-                title={post.title}
-                coverImage={post.coverImage}
-                date={post.date}
-                author={post.author}
-              />
-              <PostBody content={post.content} />
-            </article>
+    <Container>
+      {router.isFallback ? (
+        <PostTitle>Loading…</PostTitle>
+      ) : (
+        <>
+          <article className="mb-32">
+            <Head>
+              <title>{post.title}</title>
+              <Meta description={post.title} url={URL} />
+            </Head>
+            <PostHeader
+              title={post.title}
+              coverImage={post.coverImage}
+              date={post.date}
+              author={post.author}
+            />
+            <PostBody content={post.content} />
+          </article>
 
-            <div className="max-w-2xl mx-auto mb-28">
-              <Button>
-                <Link href="/#stories">돌아가기</Link>
-              </Button>
-              <Button onClick={handleShareClick}>공유하기</Button>
-              <StyledContainer hideProgressBar={true} autoClose={1500} limit={2} draggablePercent={60} />
-            </div>
-          </>
-        )}
-      </Container>
-    </Layout>
+          <div className="max-w-2xl mx-auto mb-28">
+            <Button>
+              <Link href="/#stories">돌아가기</Link>
+            </Button>
+            <Button onClick={handleShareClick}>공유하기</Button>
+            <StyledContainer hideProgressBar={true} autoClose={1500} limit={2} draggablePercent={60} />
+          </div>
+        </>
+      )}
+    </Container>
   );
 };
 
