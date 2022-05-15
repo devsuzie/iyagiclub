@@ -44,15 +44,15 @@ const Post = ({ post, morePosts, preview }: Props) => {
 
   return (
     <Container>
+      <Head>
+        <title>{post.title}</title>
+        <Meta description={post.title} url={URL} />
+      </Head>
       {router.isFallback ? (
         <PostTitle>Loading…</PostTitle>
       ) : (
         <>
           <article className="mb-32">
-            <Head>
-              <title>{post.title}</title>
-              <Meta description={post.title} url={URL} />
-            </Head>
             <PostHeader
               title={post.title}
               coverImage={post.coverImage}
