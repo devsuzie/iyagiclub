@@ -32,12 +32,14 @@ const Post = ({ post, morePosts, preview }: Props) => {
     return <ErrorPage statusCode={404} />;
   }
 
+  const URL = `${BASE_PATH}${router.asPath}`;
+
   const handleShareClick = () => {
     toast.success('복사되었습니다.', {
       position: toast.POSITION.BOTTOM_RIGHT,
       icon: false,
     });
-    copy(`${post.author.role} ${post.author.name}님의 이야기\n"${post.title}"\n${BASE_PATH}${router.asPath}`);
+    copy(`${post.author.role} ${post.author.name}님의 이야기\n"${post.title}"\n${URL}`);
   };
 
   return (
@@ -50,7 +52,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
             <article className="mb-32">
               <Head>
                 <title>{post.title}</title>
-                <Meta description={post.title} />
+                <Meta description={post.title} url={URL} />
               </Head>
               <PostHeader
                 title={post.title}
