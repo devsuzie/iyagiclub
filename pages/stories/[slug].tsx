@@ -36,7 +36,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
       position: toast.POSITION.BOTTOM_RIGHT,
       icon: false,
     });
-    copy(`${post.author.role} ${post.author.name}님의 이야기\n${BASE_PATH}${router.asPath}`);
+    copy(`${post.author.role} ${post.author.name}님의 이야기\n"${post.title}"\n${BASE_PATH}${router.asPath}`);
   };
 
   return (
