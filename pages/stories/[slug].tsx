@@ -65,7 +65,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
                 <Link href="/#stories">돌아가기</Link>
               </Button>
               <Button onClick={handleShareClick}>공유하기</Button>
-              <StyledContainer hideProgressBar={true} limit={2} draggablePercent={60} />
+              <StyledContainer hideProgressBar={true} autoClose={1500} limit={2} draggablePercent={60} />
             </div>
           </>
         )}
