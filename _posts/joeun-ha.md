@@ -5,7 +5,7 @@ coverImage: '/assets/blog/dynamic-routing/cover.jpg'
 date: '2022-05-15'
 author:
   name: '하조은'
-  role: '프론트엔드 엔지니어'
+  role: '소프트웨어 엔지니어'
   picture: '/assets/blog/authors/jj.jpeg'
 ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
