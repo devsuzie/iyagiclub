@@ -6,6 +6,7 @@ const Meta = () => {
     <Head>
       <meta name="description" content={`이야기가 펼쳐지는 곳, ${TITLE}.`} />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      <meta name="twitter:card" content={HOME_OG_IMAGE_URL} />
     </Head>
   );
 };
