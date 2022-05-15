@@ -68,13 +68,18 @@ const Index = ({ allPosts }: Props) => {
         <footer className="bg-black text-white py-12 sm:py-24">
           <p className="w-full mx-auto font-futura font-bold text-4xl px-5 sm:w-4/6">iyagiclub</p>
           <p className="w-full mx-auto mt-8 flex items-center px-5 sm:w-4/6">
-            <span className="mr-4">
-              <Image src="/assets/icon/github.png" alt="github" width={40} height={40} />
+            <span className="mr-5 cursor-pointer">
+              <Link href="https://twitter.com/iyagiclub">
+                <a target="_blank">
+                  <Image src="/assets/icon/twitter.png" alt="twitter" width={40} height={40} />
+                </a>
+              </Link>
             </span>
-            <span className="mr-4">
-              <Image src="/assets/icon/twitter.png" alt="twitter" width={40} height={40} />
+            <span className="cursor-pointer">
+              <Link href={"mailto:contact@iyagi.club"}>
+                <Image src="/assets/icon/mail.png" alt="mail" width={40} height={30} />
+              </Link>
             </span>
-            <Image src="/assets/icon/rss.png" alt="rss" width={30} height={30} />
           </p>
         </footer>
       </Layout>
