@@ -90,7 +90,7 @@ const DescriptionSection = ({ isKorean }: Props) => {
         text={
           isKorean ? (
             <>
-              바로 ....
+              바로...
               <br />
               무한한 <Highlight color="#0C54B6">인터넷</Highlight> 공간 <br />
               너머로 말이죠!
