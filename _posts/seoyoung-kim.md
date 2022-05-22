@@ -1,5 +1,5 @@
 ---
-title: '욕심많은 개발자'
+title: '무엇을 만들어도 제대로 만드는 사람'
 excerpt: '김서영 | 웹 프론트엔드 엔지니어'
 coverImage: '/assets/blog/authors/seoyoung-kim.jpeg'
 date: '2022-05-15'
