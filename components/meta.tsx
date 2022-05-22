@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { TITLE, HOME_OG_IMAGE_URL } from '../lib/constants';
+import { HOME_TITLE, HOME_OG_IMAGE_URL } from '../lib/constants';
 
 interface Props {
   description?: string;
@@ -9,7 +9,7 @@ interface Props {
 const Meta = ({description, url}: Props) => {
   return (
     <>
-      <meta name="description" content={`이야기가 펼쳐지는 곳, ${TITLE}.`} />
+      <meta name="description" content={`이야기가 펼쳐지는 곳, ${HOME_TITLE}.`} />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:url" content={url} />
