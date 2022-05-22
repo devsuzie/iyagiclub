@@ -139,8 +139,7 @@ export async function getStaticProps({ params }: Params) {
       seo: {
         title: post.title,
         description: post.excerpt,
-        coverImage: `${BASE_PATH}${post.coverImage}`,
-        ogImage: `${BASE_PATH}${post.ogImage}`,
+        image: `${BASE_PATH}${post.coverImage}`,
         url: `${BASE_PATH}/stories/${post.slug}`,
       }
     },
