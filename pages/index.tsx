@@ -162,7 +162,8 @@ export const getStaticProps = async () => {
       seo: {
         title: HOME_TITLE,
         description: `이야기가 펼쳐지는 곳, ${HOME_TITLE}`,
-        image: HOME_OG_IMAGE_URL,
+        coverImage: HOME_OG_IMAGE_URL,
+        ogImage: HOME_OG_IMAGE_URL,
         url: HOME_URL,
       }
     },
