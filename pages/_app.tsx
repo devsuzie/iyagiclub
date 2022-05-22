@@ -5,7 +5,6 @@ import 'swiper/swiper.min.css';
 import 'swiper/components/pagination/pagination.min.css';
 
 import '../styles/index.css';
-import { HOME_OG_IMAGE_URL, TITLE } from '../lib/constants';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
