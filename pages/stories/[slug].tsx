@@ -140,7 +140,7 @@ export async function getStaticProps({ params }: Params) {
         title: post.title,
         description: post.excerpt,
         image: `${BASE_PATH}${post.coverImage}`,
-        url: `${BASE_PATH}/${post.slug}`,
+        url: `${BASE_PATH}/stories/${post.slug}`,
       }
     },
   };
