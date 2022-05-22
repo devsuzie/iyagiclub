@@ -19,9 +19,9 @@ const PostHeader = ({ title, coverImage, date, author }: Props) => {
         <div className="text-gray font-light mb-20">
           <Avatar name={date} picture={author.picture} />
         </div>
-        {/* <div className="mb-8 md:mb-16 sm:mx-0">
+        <div className="mb-8 md:mb-16 sm:mx-0">
           <CoverImage title={title} src={coverImage} />
-        </div> */}
+        </div>
         {/* <div className="mb-6 text-lg">
           <DateFormatter dateString={date} />
         </div> */}

@@ -15,14 +15,28 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no, viewport-fit=cover"
         />
-        <title>{TITLE}</title>
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content="@iyagiclub" />
-        <meta name="twitter:title" content="이야기 클럽" />
-        <meta name="twitter:description" content="이야기가 펼쳐지는 곳, 이야기 클럽" />
-        <meta name="twitter:image" content={HOME_OG_IMAGE_URL} />
-        <meta property="twitter:url" content="https://www.iyagi.club" />
 
+        {pageProps.seo && (
+          <>
+            <meta name="title" content={pageProps.seo.title} />
+            <meta name="description" content={pageProps.seo.description} />
+            <meta property="og:title" content={pageProps.seo.title} />
+            <meta property="og:description" content={pageProps.seo.description} />
+            <meta property="og:image" content={pageProps.seo.image} />
+            <meta property="og:url" content={pageProps.seo.url} />
+            <link rel="canonical" href={pageProps.seo.url} />
+            <title>{pageProps.seo.title}</title>
+
+            {/* twitter */}
+            <meta name="twitter:card" content='summary_large_image' />
+            <meta name="twitter:title" content={pageProps.seo.title} />
+            <meta name="twitter:description" content={pageProps.seo.description} />
+            <meta name="twitter:image" content={pageProps.seo.image} />
+            <meta property="twitter:url" content={pageProps.seo.url} />
+          </>
+        )
+
+        }
         <script src="https://developers.kakao.com/sdk/js/kakao.js" />
       </Head>
 
