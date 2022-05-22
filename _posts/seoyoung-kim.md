@@ -1,5 +1,5 @@
 ---
-title: '로트와일러 개발자'
+title: '욕심많은 개발자'
 excerpt: '김서영 | 웹 프론트엔드 엔지니어'
 coverImage: '/assets/blog/authors/seoyoung-kim.jpeg'
 date: '2022-05-15'
@@ -7,8 +7,7 @@ author:
   name: '김서영'
   role: '프론트엔드 엔지니어'
   picture: '/assets/blog/authors/seoyoung-kim.jpeg'
-ogImage:
-  url: '/assets/blog/authors/seoyoung-kim.jpeg'
+ogImage: '/assets/blog/og/seoyoung-kim.jpg'
 ---
 
 안녕하세요. 저는 뱅크샐러드에서 프론트 웹 개발을 하고 있는 김서영입니다.

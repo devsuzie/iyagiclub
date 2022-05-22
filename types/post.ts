@@ -7,9 +7,7 @@ type PostType = {
   coverImage: string
   author: Author
   excerpt: string
-  ogImage: {
-    url: string
-  }
+  ogImage: string;
   content: string
 }
 
