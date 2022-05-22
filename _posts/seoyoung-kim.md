@@ -1,6 +1,6 @@
 ---
 title: '무엇을 만들어도 제대로 만드는 사람'
-excerpt: '김서영 | 웹 프론트엔드 엔지니어'
+excerpt: '김서영 | 프론트엔드 엔지니어'
 coverImage: '/assets/blog/authors/seoyoung-kim.jpeg'
 date: '2022-05-22'
 author:
