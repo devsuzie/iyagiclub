@@ -21,16 +21,16 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <meta name="description" content={pageProps.seo.description} />
             <meta property="og:title" content={pageProps.seo.title} />
             <meta property="og:description" content={pageProps.seo.description} />
-            <meta property="og:image" content={pageProps.seo.image} />
+            <meta property="og:image" content={pageProps.seo.coverImage} />
             <meta property="og:url" content={pageProps.seo.url} />
             <link rel="canonical" href={pageProps.seo.url} />
             <title>{pageProps.seo.title}</title>
 
             {/* twitter */}
-            <meta name="twitter:card" content='summary_large_image' />
+            <meta name="twitter:card" content='summary' />
             <meta name="twitter:title" content={pageProps.seo.title} />
             <meta name="twitter:description" content={pageProps.seo.description} />
-            <meta name="twitter:image" content={pageProps.seo.image} />
+            <meta name="twitter:image" content={pageProps.seo.ogImage} />
             <meta property="twitter:url" content={pageProps.seo.url} />
             </>
         )
