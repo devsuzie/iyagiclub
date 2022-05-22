@@ -30,7 +30,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <meta name="twitter:card" content='summary_large_image' />
             <meta name="twitter:title" content={pageProps.seo.title} />
             <meta name="twitter:description" content={pageProps.seo.description} />
-            <meta name="twitter:image" content={pageProps.seo.image} />
+            <meta name="twitter:image:src" content={pageProps.seo.image} />
             <meta property="twitter:url" content={pageProps.seo.url} />
             </>
         )
