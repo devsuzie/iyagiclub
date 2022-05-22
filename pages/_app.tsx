@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import { AppProps } from 'next/app';
-import {Helmet} from 'react-helmet';
 
 import 'swiper/swiper.min.css';
 import 'swiper/components/pagination/pagination.min.css';
@@ -17,7 +16,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         />
 
         {pageProps.seo && (
-          <Helmet>
+          <>
             <meta name="title" content={pageProps.seo.title} />
             <meta name="description" content={pageProps.seo.description} />
             <meta property="og:title" content={pageProps.seo.title} />
@@ -33,9 +32,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <meta name="twitter:description" content={pageProps.seo.description} />
             <meta name="twitter:image" content={pageProps.seo.image} />
             <meta property="twitter:url" content={pageProps.seo.url} />
-            </Helmet>
+            </>
         )
-
         }
         <script src="https://developers.kakao.com/sdk/js/kakao.js" />
       </Head>
