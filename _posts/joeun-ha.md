@@ -7,8 +7,7 @@ author:
   name: '하조은'
   role: '소프트웨어 엔지니어'
   picture: '/assets/blog/authors/joeun-ha.jpeg'
-ogImage:
-  url: '/assets/blog/authors/joeun-ha.jpeg'
+ogImage: '/assets/blog/og/joeun-ha.jpg'
 ---
 
 안녕하세요. 소프트웨어 엔지니어 하조은입니다.
