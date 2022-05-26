@@ -1,7 +1,6 @@
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import MoreStories from '../components/more-stories';
-import Layout from '../components/layout';
 import { getAllPosts } from '../lib/api';
 import Post from '../types/post';
 import React, { useEffect, useState } from 'react';
@@ -10,6 +9,7 @@ import HeroSection from '../components/sections/hero-section';
 import styled from '@emotion/styled';
 import DescriptionSection from '../components/sections/description-section';
 import Link from 'next/link';
+import { HOME_OG_IMAGE_URL, HOME_TITLE, HOME_URL } from '../lib/constants';
 
 type Props = {
   allPosts: Post[];
@@ -39,7 +39,6 @@ const Index = ({ allPosts }: Props) => {
 
   return (
     <>
-      <Layout>
         <HeroSectionContainer>
           <StyledHeader>
             <H1>
@@ -82,7 +81,6 @@ const Index = ({ allPosts }: Props) => {
             </span>
           </p>
         </footer>
-      </Layout>
     </>
   );
 };
@@ -159,6 +157,14 @@ export const getStaticProps = async () => {
   const allPosts = getAllPosts(['title', 'date', 'slug', 'author', 'coverImage', 'excerpt']);
 
   return {
-    props: { allPosts },
+    props: {
+      allPosts,
+      seo: {
+        title: HOME_TITLE,
+        description: `이야기가 펼쳐지는 곳, ${HOME_TITLE}`,
+        image: HOME_OG_IMAGE_URL,
+        url: HOME_URL,
+      }
+    },
   };
 };

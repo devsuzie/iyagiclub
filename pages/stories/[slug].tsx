@@ -18,6 +18,7 @@ import { BASE_PATH } from '../../constants/idex';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Meta from '../../components/meta';
+import { useLocation } from 'react-router-dom';
 
 type Props = {
   post: PostType;
@@ -44,9 +45,6 @@ const Post = ({ post, morePosts, preview }: Props) => {
 
   return (
     <Container>
-      <Head>
-        <title>{post.title}</title>
-      </Head>
       {router.isFallback ? (
         <PostTitle>Loading…</PostTitle>
       ) : (
@@ -129,6 +127,7 @@ export async function getStaticProps({ params }: Params) {
     'content',
     'ogImage',
     'coverImage',
+    'excerpt',
   ]);
   const content = await markdownToHtml(post.content || '');
 
@@ -138,6 +137,12 @@ export async function getStaticProps({ params }: Params) {
         ...post,
         content,
       },
+      seo: {
+        title: post.title,
+        description: post.excerpt,
+        image: post.coverImage,
+        url: `${BASE_PATH}/${post.slug}`,
+      }
     },
   };
 }

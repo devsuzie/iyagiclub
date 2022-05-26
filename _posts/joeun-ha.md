@@ -1,14 +1,14 @@
 ---
 title: '당신 근처의 조은 동료'
 excerpt: '하조은 | 소프트웨어 엔지니어'
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
+coverImage: '/assets/blog/authors/joeun-ha.jpeg'
 date: '2022-05-15'
 author:
   name: '하조은'
   role: '소프트웨어 엔지니어'
-  picture: '/assets/blog/authors/jj.jpeg'
+  picture: '/assets/blog/authors/joeun-ha.jpeg'
 ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
+  url: '/assets/blog/authors/joeun-ha.jpeg'
 ---
 
 안녕하세요. 소프트웨어 엔지니어 하조은입니다.
