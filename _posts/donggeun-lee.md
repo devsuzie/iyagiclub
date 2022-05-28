@@ -1,14 +1,14 @@
 ---
 title: '루트의 제곱은 이동근'
 excerpt: '이동근 | 프론트엔드 엔지니어'
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
+coverImage: '/assets/blog/authors/happy-donggeun.jpeg'
 date: '2022-05-25'
 author:
   name: '이동근'
   role: '프론트엔드 엔지니어'
-  picture: '/assets/blog/dynamic-routing/cover.jpg'
+  picture: '/assets/blog/authors/happy-donggeun.jpeg'
 ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
+  url: '/assets/blog/authors/happy-donggeun.jpeg'
 ---
 
 안녕하세요. 저는 당근마켓에서 웹 프론트엔드 개발자로 일하고 있는 이동근입니다. 좋은 서비스와 좋은 팀
