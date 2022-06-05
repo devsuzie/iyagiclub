@@ -2,7 +2,7 @@
 title: '소프트웨어를 통해 세상에 사랑을 흘려보낼'
 excerpt: '고의성 | 예비 창업가, 소프트웨어 엔지니어'
 coverImage: '/assets/blog/authors/abel-ko.jpeg'
-date: '2022-05-16'
+date: '2022-06-05'
 author:
   name: '고의성'
   role: '예비 창업가'
