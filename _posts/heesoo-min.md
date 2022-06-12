@@ -1,14 +1,14 @@
 ---
 title: '고양이에게 의무를 다하는 디자이너'
 excerpt: '민희수 | 프로덕트 디자이너'
-coverImage: '/assets/blog/authors/heesoo-min.jpg'
+coverImage: '/assets/blog/authors/heesoo-min/index.jpeg'
 date: '2022-06-12'
 author:
   name: '민희수'
   role: '프로덕트 디자이너'
-  picture: '/assets/blog/authors/heesoo-min.jpg'
+  picture: '/assets/blog/authors/heesoo-min/index.jpeg'
 ogImage:
-  url: '/assets/blog/authors/heesoo-min.jpg'
+  url: '/assets/blog/authors/heesoo-min/index.jpeg'
 ---
 
 안녕하세요. 프로덕트 디자이너 민희수입니다.
@@ -99,4 +99,4 @@ ogImage:
 
 ## 공유하고 싶은것
 
-(여기 앙팡이 사진)
+![angpang](/assets/blog/authors/heesoo-min/angpang.jpeg)
