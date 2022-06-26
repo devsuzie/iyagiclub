@@ -2,7 +2,7 @@
 title: '꾸준하고 깊게 개발하기'
 excerpt: '김종엽 | 백엔드 개발자'
 coverImage: '/assets/blog/authors/jongyeob-kim/index.jpeg'
-date: '2022-06-19'
+date: '2022-06-26'
 author:
   name: '김종엽'
   role: '백엔드 개발자'
