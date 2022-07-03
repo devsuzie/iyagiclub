@@ -1,5 +1,5 @@
 ---
-title: '박성우 | 서버 개발자'
+title: '별 보면서 파도 소리 들으면서 개발하고 싶은'
 excerpt: '박성우 | 서버 개발자'
 coverImage: '/assets/blog/dynamic-routing/cover.jpg'
 date: '2022-07-03'
