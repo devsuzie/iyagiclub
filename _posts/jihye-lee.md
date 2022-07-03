@@ -1,8 +1,8 @@
 ---
-title: '이지혜 | 프로덕트 디자이너'
+title: '9년간 프로덕트 디자이너로 일하며 배운점'
 excerpt: '이지혜 | 프로덕트 디자이너'
 coverImage: '/assets/blog/authors/jihye-lee/index.jpeg'
-date: '2022-06-19'
+date: '2022-07-03'
 author:
   name: '이지혜'
   role: '프로덕트 디자이너'
