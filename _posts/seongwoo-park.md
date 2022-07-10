@@ -1,14 +1,14 @@
 ---
 title: '별 보면서 파도 소리 들으면서 개발하고 싶은'
 excerpt: '박성우 | 서버 개발자'
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
-date: '2022-07-03'
+coverImage: '/assets/blog/authors/seongwoo-park/index.jpeg'
+date: '2022-07-10'
 author:
   name: '박성우'
   role: '서버 개발자'
-  picture: '/assets/blog/dynamic-routing/cover.jpg'
+  picture: '/assets/blog/authors/seongwoo-park/index.jpeg'
 ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
+  url: '/assets/blog/authors/seongwoo-park/index.jpeg'
 ---
 
 안녕하세요. 뱅크샐러드에서 서버 개발자로 일하고 있는 박성우라고 합니다.
@@ -115,4 +115,8 @@ Go를 사용하고 있어서 Go가 좋기는 하지만, 아직까지 제일 좋�
 
 ## 공유하고 싶은 것
 
-(깃헙 계정이나 동해 바다 사진 등 공유하고 싶은 것을 적어주세요!)
+제가 찍은 바다 사진입니다.
+
+![ocean](/assets/blog/authors/seongwoo-park/ocean.jpeg)
+
+![ocean2](/assets/blog/authors/seongwoo-park/ocean2.jpeg)
