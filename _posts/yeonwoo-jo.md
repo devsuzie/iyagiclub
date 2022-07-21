@@ -1,5 +1,5 @@
 ---
-title: '번아웃을 말할 때 내가 하고 싶은 이야기'
+title: '번아웃을 지나면서 하고 싶은 이야기'
 excerpt: '조연우 | 프론트엔드 엔지니어'
 coverImage: '/assets/blog/dynamic-routing/cover.jpg'
 date: '2022-07-16'
