@@ -2,7 +2,7 @@
 title: '번아웃을 지나면서 하고 싶은 이야기'
 excerpt: '조연우 | 프론트엔드 엔지니어'
 coverImage: '/assets/blog/authors/yeonwoo-jo/index.jpg'
-date: '2022-07-16'
+date: '2022-07-24'
 author:
   name: '조연우'
   role: '프론트엔드 엔지니어'
