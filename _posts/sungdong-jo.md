@@ -349,4 +349,5 @@ SaaS 솔루션을 만들고 싶다는 생각이들어요. 그래서 그거를 [f
 
 - GitHub: https://github.com/doong-jo
 - 최근에 저의 집에 새로운 가족이 된 리트리버 `나리`
-![1657615403857](https://user-images.githubusercontent.com/22005861/182013630-8f9bddef-5777-466b-aad4-b06d023f1558.jpg)
+
+<img src="https://user-images.githubusercontent.com/22005861/182013630-8f9bddef-5777-466b-aad4-b06d023f1558.jpg" alt="nari" width="320"/>
