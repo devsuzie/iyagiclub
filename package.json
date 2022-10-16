@@ -6,7 +6,8 @@
     "dev9090": "npx next dev -p 9090",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.4.0",
@@ -35,6 +36,8 @@
     "@types/react-dom": "^17.0.5",
     "@types/react-router-hash-link": "^2.4.5",
     "autoprefixer": "^10.2.5",
+    "eslint": "^8.25.0",
+    "eslint-config-next": "12.3.1",
     "postcss": "^8.3.0",
     "tailwindcss": "^2.1.2"
   },
