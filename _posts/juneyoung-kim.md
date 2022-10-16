@@ -172,5 +172,5 @@ ogImage:
 
 ## 공유하고 싶은것
 
-단연 [개발 블로그](https://juneyr.dev) 입니다. =)
+단연 <a href="https://juneyr.dev" target="_blank">개발 블로그</a> 입니다. =)
 날 것이고 느리기도 하지만 꾸준히 기록을 쌓아올리고 있으니 많이 봐주세요.
