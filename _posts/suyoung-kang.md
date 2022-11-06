@@ -2,7 +2,7 @@
 title: '컨셉카를 만드는 일'
 excerpt: '강수영 | 디자인 전략 리드'
 coverImage: '/assets/blog/authors/suyoung-kang/index.jpeg'
-date: '2022-10-30'
+date: '2022-11-06'
 author:
   name: '강수영'
   role: '디자인 전략 리드'
