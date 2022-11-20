@@ -1,6 +1,6 @@
 ---
 title: '비전공자의 미국 개발자 도전기'
-excerpt: '비전공자의 미국 개발자 도전기'
+excerpt: '좌이현 | 백엔드 엔지니어'
 coverImage: '/assets/blog/authors/yeehyun-jwa.jpeg'
 date: '2022-11-20'
 author:
