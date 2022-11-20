@@ -1,14 +1,14 @@
 ---
-title: '좌이현 | 소프트웨어 엔지니어'
-excerpt: '좌이현 | 소프트웨어 엔지니어'
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
-date: '2022-11-06'
+title: '비전공자의 미국 개발자 도전기'
+excerpt: '비전공자의 미국 개발자 도전기'
+coverImage: '/assets/blog/authors/yeehyun-jwa.jpeg'
+date: '2022-11-20'
 author:
   name: '좌이현'
-  role: '소프트웨어 엔지니어'
-  picture: '/assets/blog/dynamic-routing/cover.jpg'
+  role: '백엔드 엔지니어'
+  picture: '/assets/blog/authors/yeehyun-jwa.jpeg'
 ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
+  url: '/assets/blog/authors/yeehyun-jwa.jpeg'
 ---
 
 마이크로소프트에서 백엔드 엔지니어로 일한 지 4개월 정도 된 좌이현이라고 합니다.
@@ -61,10 +61,6 @@ ogImage:
 
 마이크로소프트 사내 메신저를 보면 클럽이나 그룹이 많고, 잘 운영되고 있어요. 한국인 그룹, 음악을 좋아하는 사람들의 그룹, 어디 사는 사람들 등 정말 많거든요. 그래서 다양한 클럽에 나가면서 사람들을 다양하게 만나보려고 하고 있어요. 최근에는 제가 일하는 건물 안에 있는 사람 중 새로 입사한 사람들이 있는 그룹을 나가봤어요. 또 제가 사는 지역에서 술을 마시는 자리에도 나가봤고요. 다양하게 인맥을 만들기 좋은 것 같아요.
 
-## 요즘 관심 있는 분야가 있나요?
-
-최근에는 “Designing Data-Intensive Application”이라는 OS 책을 빌려서 공부하고 있어요. 멧돼지 그려져 있는 책인데 쉽지는 않지만 열심히 읽고 있어요.
-
 ## 이현 님에게 개발이란
 
 개발은 내가 뭘 좀 안다고 해서 절대 자부할 수 없는 그런 분야인 것 같아요. 내가 안다고 생각하더라도 그 영역보다 더 광활한 영역이 있고, 그 영역의 더 광활한 영역이 있어서 내가 뭘 안다고 자만하면 안 되는 것 같아요. 또 이제 조금 알겠다 싶으면 새로운 게 나오기도 하고요.
@@ -75,7 +71,7 @@ ogImage:
 
 또 개인적으로는 수의 관련 봉사를 하고 싶어요. 졸업 후 고민 하던 시기에 학교를 다시 가서 수의사를 할까 생각했던 적이 있어요. 제가 동물을 정말 좋아하거든요. 유튜브에서 수의사 브이로그나 동물들 영상을 보고, 강아지 고양이 말고 모든 동물을 거의 다 좋아해요. 또 동물 복지에도 관심 많아서 수의 관련 봉사를 하고 싶어요.
 
-## 작업할 때 선호하는 장소가 있나요.
+## 작업할 때 선호하는 장소
 
 저는 오피스요. 오피스 책상에 칸막이가 없거든요. 그냥 휑 뚫려 있어서 거기 앉아 있으면 일을 안 할 수가 없어요.
 
@@ -93,4 +89,5 @@ ogImage:
 
 ## 공유하고 싶은 것
 
-(이현님의 SNS 계정 / 블로그 주소 / 회사 풍경 사진 등… 공유해주시고 싶은 것들을 올려주세요!)
+- <a href="http://blog.naver.com/worldstaruri" target="_blank">Blog</a>
+- <a href="http://instagram.com/jwadehyun" target="_blank">Instagram</a>
