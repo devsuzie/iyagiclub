@@ -35,7 +35,7 @@ const Container = styled.div`
 export default About;
 
 export const getStaticProps = async () => {
-  const allPosts = getAllPosts(['title', 'date', 'slug', 'author', 'coverImage', 'excerpt']);
+  const allPosts = getAllPosts(['title', 'date', 'slug', 'author', 'coverImage', 'excerpt', 'quote']);
 
   return {
     props: { allPosts },

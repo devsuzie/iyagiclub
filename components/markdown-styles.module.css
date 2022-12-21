@@ -25,3 +25,7 @@
   @apply text-sm text-gray-300
 }
 
+.markdown pre code {
+  @apply text-sm text-gray-300
+}
+
