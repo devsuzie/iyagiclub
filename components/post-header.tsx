@@ -21,7 +21,7 @@ const PostHeader = ({ title, coverImage, date, author, quote }: Props) => {
         <div className={`text-gray font-light ${quote ? 'mb-5' : 'mb-20'}`}>
           <Avatar name={date} picture={author.picture} />
         </div>
-        <Blockquote><p className='py-4'>{quote}</p></Blockquote>
+        {quote && <Blockquote><p className='py-4'>{quote}</p></Blockquote>}
         <div className="mb-8 md:mb-16 sm:mx-0">
           <CoverImage title={title} src={coverImage} />
         </div>
