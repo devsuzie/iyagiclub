@@ -1,5 +1,5 @@
 ---
-title: '작은 일에서 큰 시스템을 보기'
+title: '작은 일에서 큰 시스템 보기'
 excerpt: '김다정 | 소프트웨어 엔지니어'
 quote: '아래의 인터뷰 내용은 개인적인 의견이며 AWS의 의견과 무관합니다.'
 coverImage: '/assets/blog/authors/dajung-kim.jpg'
