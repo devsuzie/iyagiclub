@@ -2,14 +2,14 @@
 title: '김다정 | 소프트웨어 엔지니어'
 excerpt: '김다정 | 소프트웨어 엔지니어'
 quote: '아래의 인터뷰 내용은 개인적인 의견이며 AWS의 의견과 무관합니다.'
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
+coverImage: '/assets/blog/authors/dajung-kim.jpg'
 date: '2022-12-18'
 author:
   name: '김다정'
   role: '소프트웨어 엔지니어'
-  picture: '/assets/blog/dynamic-routing/cover.jpg'
+  picture: '/assets/blog/authors/dajung-kim.jpg'
 ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
+  url: '/assets/blog/authors/dajung-kim.jpg'
 ---
 
 아마존 웹 서비스에서 Glue라는 서비스를 개발하고 있는 개발자 김다정입니다.
